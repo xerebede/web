@@ -1,0 +1,23 @@
+/* Fonte Walkway */
+
+@font-face {
+    font-family: 'Walkway';
+    src: url('walkway.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+
+@font-face {
+    font-family: 'Walkway';
+    src: url('walkway_bold.ttf') format('truetype');
+    font-weight:bold;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: 'Walkway';
+    src: url('walkway_oblique.ttf') format('truetype');
+    font-weight:normal;
+    font-style:italic;
+}

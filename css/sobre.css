@@ -1,0 +1,157 @@
+#sobre > #empresa
+{
+	width:100%;
+	padding-bottom:70px;
+	margin-bottom:50px;
+	border-bottom:1px solid #DCDCDC; 
+}
+
+#sobre  h1
+{
+	font-family:Arial, Helvetica, sans-serif;
+	letter-spacing:-1px;
+	font-weight:normal;
+	font-size:2em;
+
+	margin-bottom:30px;
+}
+
+#sobre > #empresa > img
+{
+	width:33.5%;
+	float:left;
+	margin-right:1.5%;	
+}
+
+#sobre  h2
+{
+	float:left;
+	font-size:1.3em;
+	color:#000;
+
+	margin-bottom:10px;
+}
+
+#sobre  p
+{
+	float:left;
+
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:18px;
+	text-align:justify;
+	font-size:1.3em;
+	color:#8D8C8C;
+	width:65%;
+
+	margin-bottom:15px;
+}
+
+
+#sobre > #projetos
+{
+	width:65%;
+	float:left;
+
+	margin-right:5%;
+}
+
+#sobre > #projetos p
+{
+	width:100%;
+}
+
+#sobre > #projetos > ul
+{
+	float:left;
+	width:40%;
+
+	margin-top:30px;
+}
+
+#sobre > #projetos > ul
+{
+	margin-left:20px;
+}
+
+#sobre > #projetos > ul > li
+{
+	list-style-image:url(img/sobre/lista.gif);
+}
+
+#sobre > #projetos > ul > li > a
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1.3em;
+	color:#000;
+}
+
+#sobre > #projetos > ul > li > a:hover
+{
+	text-decoration:underline;
+}
+
+
+#sobre > .depoimento
+{
+	width:30%;
+	float:left;
+}
+
+#sobre > .depoimento > blockquote
+{
+	width:100%;
+	background:url(img/sobre/citacao.png) no-repeat 8px 9px #F8F8F8 !important;
+	border:1px solid #DCDCDC;
+	padding:15px 0 15px 30px;
+}
+
+#sobre > .depoimento > blockquote > a
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:1.5em;
+	color:#B3B3B3;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	line-height:25px;
+}
+
+#sobre > .depoimento > blockquote > a:hover
+{
+	color:#333;
+}
+
+#sobre > .depoimento > #seta:after
+{
+	background:url(img/sobre/depoimento.gif) no-repeat center top;
+	text-align:center;
+	display:block;
+	color:#F8F8F8;
+	margin:-1px 0 20px 0;
+	position:relative;
+	z-index:2;
+	content:".";
+}
+
+.depoimento > #nome
+{
+	font-weight:bold;
+	font-size:1.2em;
+	display:block;
+	margin-bottom:15px;
+	color:#3D3C3C;
+
+	text-align:center;
+}
+
+.depoimento > #cargo
+{
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:18px;
+	font-size:1.1em;
+	color:#8D8C8C;
+
+	display:block;
+	text-align:center;
+}

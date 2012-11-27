@@ -1,0 +1,79 @@
+#depoimentos
+{
+	width:85%;
+}
+
+#depoimentos > h1
+{
+	font-family:Arial, Helvetica, sans-serif;
+	letter-spacing:-1px;
+	font-weight:normal;
+	font-size:2em;
+
+	margin-bottom:30px;
+}
+
+#depoimentos > .depoimento-completo
+{
+	width:65%;
+}
+
+#depoimentos > .depoimento-completo > img
+{
+	margin:15px 80px 60px 15px;
+	border:1px solid #DCDCDC;
+	float:left;
+}
+
+#depoimentos > .depoimento-completo > blockquote
+{
+	border:1px solid yellow;
+	background:url(img/sobre/citacao.png) no-repeat 130px 10px #F8F8F8;
+	border:1px solid #DCDCDC;
+	padding:15px 0 15px 30px;
+}
+
+#depoimentos > .depoimento-completo > blockquote > p
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:1.5em;
+	color:#8D8C8C;
+	line-height:25px;
+	margin-bottom:25px;
+}
+
+#depoimentos > .depoimento-completo > #seta:after
+{
+	background:url(img/sobre/depoimento.gif) no-repeat center top;
+	text-align:center;
+	display:block;
+	color:#F8F8F8;
+	margin:-1px 0 20px 0;
+	position:relative;
+	z-index:2;
+	content:".";
+}
+
+#depoimentos > .depoimento-completo > #nome
+{
+	font-weight:bold;
+	font-size:1.2em;
+	display:block;
+	margin-bottom:15px;
+	color:#3D3C3C;
+
+	text-align:center;
+}
+
+#depoimentos > .depoimento-completo > #cargo
+{
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:18px;
+	font-size:1.1em;
+	color:#8D8C8C;
+
+	display:block;
+	text-align:center;
+	margin-bottom:50px;
+}
